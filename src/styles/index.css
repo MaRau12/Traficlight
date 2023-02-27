@@ -2,26 +2,28 @@
     display: inline-block;
     background-color: black;
     padding: 5px;
+    margin: auto;
    
 }
-
-.red{
+.light{
+    width: 100px;
+    height: 100px;
     border-radius: 50%;
+    background-color: blue;
+}
+.red{
     background-color: red;
-    height:100px;
-    width:100px;
+ 
 }
 
 .yellow{
-    border-radius: 50%;
     background-color: yellow; 
-    height:100px;
-    width:100px;
 }
 
 .green{
-    border-radius: 50%;
-    background-color: green; 
-    height:100px;
-    width:100px;
+    background-color: green;
+}
+
+.glow{
+    box-shadow: 0px 0px 9px 4px #747DE8;
 }
